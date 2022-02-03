@@ -1,0 +1,384 @@
+.headerone {
+                
+  margin: 0;
+  padding: 25px ;
+  left:0;
+  top: 0;
+  
+  word-spacing: 20;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+
+  text-align: right;
+  background-color: white;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  width: 1240px;
+}
+.headertwo {
+  
+  margin: 0;
+  padding: 25px ;
+  right: 800;
+  left: 60;
+  top: 0; 
+  word-spacing: 4px;
+  position: fixed;
+  text-align: left;
+  font-family: sans-serif;
+  color: white;
+
+  /* text-decoration: none;
+  
+  color: white;
+  
+  overflow: hidden;
+  z-index: 1;
+  width: 100%; */
+  
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+  
+  
+
+  /* The image used */
+  background-image: url("image3.png");
+  
+  
+  /* Set a specific height */
+  min-height: 1000px; 
+  width:1240px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.centeredt {
+  position: absolute;
+  color: white;
+  font-size: 80;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 120;
+
+  letter-spacing: 20px;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.column {
+  
+  float: left;
+  
+  padding: 55px;
+}
+
+.columntwo {
+  
+  
+  float: left;
+  padding: 55px;
+  padding-left: 0px;
+  
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  width:1240px;
+}
+
+
+
+.containerTwo{
+  
+  
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.button {
+  position: absolute;
+  bottom: 75px;
+  left: 28%;
+  background-color: rgb(175 148 83); 
+  /* border:white; */
+  border: 1px solid white;
+  /* border-width: 10px;  */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services {
+  position: absolute;
+  top: 105px;
+  left: 17%;
+  letter-spacing: 7px;
+  font-size: 36pt;
+  font-family: sans-serif;
+}
+
+.Dream {
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  font-size: 27px;
+  
+  font-family: Cambria;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerThree{
+  
+  /* The image used */
+  background-image: url("image2.png");
+  
+  
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin: 0px;
+  margin-left: 55;
+  margin-right: 55;
+  margin-top: 0;
+  margin-bottom: 55;
+  width:1120px;
+}
+
+.flowertwo {
+  position: relative;
+  text-align: center;
+  color: white;
+  bottom: 40%;
+  left: 30%;
+  
+}
+
+
+.gallery {
+  position: absolute;
+  top: 100px;
+  left: 37%;
+  letter-spacing: 17px;
+  font-size: 28pt;
+  font-family: sans-serif;
+}
+
+.memories {
+  position: absolute;
+  top: 305px;
+  left: 40%;
+  letter-spacing: 6px;
+  inline-size: 214px;
+  text-align: center; 
+  font-size: 17pt;
+  line-height: 40px;
+  font-family: serif;
+
+}
+
+
+.buttontwo {
+  position: absolute;
+  bottom: 75px;
+  left: 41%;
+  background-color: rgb(175 148 83); 
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+.Testimonial{
+  
+  
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  position: relative;
+  padding: 50px;
+  margin: 0px;
+  margin-left: 55;
+  margin-right: 55;
+  margin-top: 0;
+  margin-bottom: 55;
+  width:1120px;
+}
+
+.testy {
+
+
+  position: absolute;
+  top: 100px;
+ 
+  left: 18%;
+  
+  letter-spacing: 6px;
+  inline-size: 700px;
+  text-align: center; 
+  font-size: 27pt;
+  line-height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.comma {
+
+  position: absolute;
+  top: 0px;
+  left: 39%;
+  letter-spacing: 6px;
+  inline-size: 214px;
+  text-align: center; 
+  font-size: 60pt;
+  line-height: 40px;
+  font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+.containerFour{
+  
+  
+  /* Set a specific height */
+  min-height: 200px; 
+  background-color: rgb(175 148 83);
+  /* Create the parallax scrolling effect */
+  position: relative;
+  padding: 50px;
+  margin: 0px;
+  margin-left: 55;
+  margin-right: 55;
+  margin-top: 0;
+  margin-bottom: 55;
+  width:1120px;
+}
+
+.address {
+
+
+  position: absolute;
+  top: 43px;
+ 
+  left: 11%;
+  color: white;
+  letter-spacing: 2px;
+  inline-size: 177px;
+  text-align: left; 
+  font-size: 11pt;
+  line-height: 25px;
+  font-family: sans-serif;
+  border-right: 1px solid white;
+}
+
+.phone {
+
+
+  position: absolute;
+  top: 43px;
+ 
+  left: 30%;
+  color: white;
+  letter-spacing: 2px;
+  inline-size: 205px;
+  text-align: left; 
+  font-size: 11pt;
+  line-height: 25px;
+  font-family: sans-serif;
+  border-right: 1px solid white;
+}
+
+.mainevent {
+
+
+  position: absolute;
+  top: 43px;
+ 
+  left: 49%;
+  color: white;
+  letter-spacing: 2px;
+  inline-size: 220px;
+  text-align: left; 
+  font-size: 11pt;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+
+
+.buttonthree {
+  position: absolute;
+  bottom: 75px;
+  left: 69%;
+  background-color: rgb(175 148 83); 
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
